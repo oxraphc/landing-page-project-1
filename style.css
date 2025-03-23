@@ -60,11 +60,6 @@ html, body {
     margin: 4px 0px 8px 0px;
 }
 
-.hero-section-child-image img {
-    width: 520px;
-    height: 220px
-}
-
 .hero-section-child button {
     background-color: #3882F6;
     color: white;
@@ -72,6 +67,11 @@ html, body {
     padding: 8px 28px;
     border-radius: 8px;
     border: none;
+}
+
+.hero-section-child-image img {
+    width: 520px;
+    height: 220px
 }
 
 .info-section {
@@ -135,4 +135,41 @@ html, body {
     text-align: right;
     font-weight: 500;
     font-size: 18px;
+}
+
+.signup-now-section {
+    padding: 80px 160px;
+}
+
+.signup-now-section-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    border-radius: 4px;
+}
+
+.signup-now-section-container button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 800;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    padding: 0px 32px;
+    margin: 8px 0px;
+}
+
+.signup-now-section-container-text {
+    color:#F9FAF8;
+}
+
+.signup-now-section-container-text .title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.signup-now-section-container-text p {
+    margin: 0;
 }
