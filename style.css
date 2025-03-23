@@ -66,5 +66,9 @@ html, body {
 }
 
 .hero-section-child button {
-
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 8px 28px;
+    border-radius: 8px;
 }
